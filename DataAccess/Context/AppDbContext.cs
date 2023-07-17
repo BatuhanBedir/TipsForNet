@@ -8,7 +8,7 @@ public sealed class AppDbContext : DbContext
 {
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseSqlServer("Server=.;Database=TipsForNetDb;Trusted_Connection=True;MultipleActiveResultSets=true;Integrated Security=True");
+        optionsBuilder.UseSqlServer("Data Source=BATUHAN;Initial Catalog=TipsForNetDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
     }
-    DbSet<Product> Products { get; set; }
+    public DbSet<Product> Products { get; set; }
 }
