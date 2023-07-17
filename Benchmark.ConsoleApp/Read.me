@@ -1,6 +1,22 @@
- public Config()
+```
+
+ -Benchmark-
+ Koddaki bir güncellemenin performansı artırıp azaltmadığını veya performansı etkilemediğini belirlemenize yardımcı olabilecek bir dizi ölçülebilir sonuç sağlayan basit bir testtir. Kod optimizasyon süreci boyunca bunlardan yararlanmak için uygulamanızın yöntemlerinin performans ölçümlerini anlamak gerekir. Bir benchmark geniş bir kapsama sahip olabilir veya kaynak kodundaki küçük değişiklikleri değerlendiren bir mikro benchmark olabilir.
+ 
+ genellikle önceden tanımlanmış bir taban çizgisine karşı kod parçacıklarının performansını karşılaştırmayı içerir. Bir uygulamanın kod yeniden yazımının veya yeniden düzenlemesinin performans iyileştirmesini veya düşüşünü ölçmek için kullanılan bir işlemdir. Başka bir deyişle, benchmark kodu, uygulamanızın yöntemlerinin performans ölçümlerini bilmek için kritik öneme sahiptir. benchmark aynı zamanda uygulama kodunun üzerinde yeniden çalışılması gereken kısımlarını belirlemenize olanak tanır.
+
+Derlenmiş bir uygulama değil; çalışabilir, canlıya alınabilecek bir uygulamada denemek gerekiyor
+```
+```
+public Config()
  {
 	 SummaryStyle = BenchmarkDotNet.Reports.SummaryStyle.Default.WithR(BenchmarkDotNet.Columns.RatioStyle.Trend);
  }  
 
-->  SummaryStyle �zelli�i, �zetin nas�l bi�imlendirilece�ini belirler. SummaryStyle.Default varsay�lan �zet stilini temsil eder. WithRatioStyle y�ntemi, oran stilini ayarlamak i�in kullan�l�r. BenchmarkDotNet.Columns.RatioStyle.Trend ifadesi, oran stilinin "Trend" olarak ayarland���n� belirtir.
+->  SummaryStyle özelliği, özetin nasıl biçimlendirileceğini belirler. SummaryStyle.Default varsayılan özet stilini temsil eder. WithRatioStyle yöntemi, oran stilini ayarlamak için kullanılır. BenchmarkDotNet.Columns.RatioStyle.Trend ifadesi, oran stilinin "Trend" olarak ayarlandığını belirtir.
+
+
+ShortRunJob -> kısa ve performanslı çalışmasını sağlıyor
+
+Baseline = true -> ana methot olduğunu belirtmek için.
+```
