@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "DataAccess\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "Entity\Entity.csproj", "{DFB5F1B5-FAED-4227-B5E2-159BA3077122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartConsoleApp", "StartConsoleApp\StartConsoleApp.csproj", "{FE8E5B60-2948-46C4-9BCC-7B039F23F4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartConsoleApp", "StartConsoleApp\StartConsoleApp.csproj", "{FE8E5B60-2948-46C4-9BCC-7B039F23F4E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark.ConsoleApp\Benchmark.csproj", "{787A67C9-BA2B-4938-BA96-FC22C16DEE3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Benchmark", "Benchmark.ConsoleApp\Benchmark.csproj", "{787A67C9-BA2B-4938-BA96-FC22C16DEE3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsNoTracking", "AsNoTracking\AsNoTracking.csproj", "{A6262B1E-F92E-4BCC-8AFC-24B6676D0B05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsNoTracking", "AsNoTracking\AsNoTracking.csproj", "{A6262B1E-F92E-4BCC-8AFC-24B6676D0B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleOrUnique", "SingleOrUnique\SingleOrUnique.csproj", "{CAE2A380-DBDC-48F0-A28C-F5D9AF0D30CB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleOrUnique", "SingleOrUnique\SingleOrUnique.csproj", "{CAE2A380-DBDC-48F0-A28C-F5D9AF0D30CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagination", "Pagination\Pagination.csproj", "{A17E7D32-3D60-4AE3-83EA-E76C8AA37088}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pagination", "Pagination\Pagination.csproj", "{A17E7D32-3D60-4AE3-83EA-E76C8AA37088}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorLog", "ErrorLog\ErrorLog.csproj", "{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
