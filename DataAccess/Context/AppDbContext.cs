@@ -11,4 +11,10 @@ public sealed class AppDbContext : DbContext
         optionsBuilder.UseSqlServer("Data Source=BATUHAN;Initial Catalog=TipsForNetDb;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False");
     }
     public DbSet<Product> Products { get; set; }
+
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
+    {
+        modelBuilder.Entity<Product>().HasIndex(x => x.Name).IsUnique();
+        base.OnModelCreating(modelBuilder);
+    }
 }
