@@ -28,7 +28,9 @@ public class BencmarkService
     //{
     //    AppDbContext context = new();
     //    context.Products.AsNoTracking().ToList();
+    //    context.Products.FromSqlRaw("Select * From").AsNoTracking().ToList();
     //}
+
     [Benchmark(Baseline = true)]
     public void GetFirstWithTracking()
     {
