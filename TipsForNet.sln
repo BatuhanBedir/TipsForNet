@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleOrUnique", "SingleOrU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pagination", "Pagination\Pagination.csproj", "{A17E7D32-3D60-4AE3-83EA-E76C8AA37088}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{A17E7D32-3D60-4AE3-83EA-E76C8AA37088}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17E7D32-3D60-4AE3-83EA-E76C8AA37088}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17E7D32-3D60-4AE3-83EA-E76C8AA37088}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
