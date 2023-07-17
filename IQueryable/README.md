@@ -1,0 +1,3 @@
+```
+ ICollection'dan türer ve bir veritabaný sorgulama iþlemi gerçekleþtirdiðinizde, sorgu sonucunu döndüren bir IQueryable   nesnesi elde edersiniz. IQueryable nesnesi, sorgu sonucunu temsil eden bir liste veya koleksiyonu temsil eder. Bu   nedenle, sorgu tamamlanana kadar IQueryable nesnesi kullanýlabilir ve sonuçlarý almak için IQueryable bir listeye   dönüþtürmek gerekir. Sorgu tamamlandýðýnda veya sonuçlar alýndýðýnda, sorgu isteði kapatýlabilir.  
+```

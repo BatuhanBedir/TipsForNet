@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenWebApi", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorLog", "ErrorLog\ErrorLog.csproj", "{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryable", "IQueryable\IQueryable.csproj", "{85E6CD75-DB47-4CC5-AFEF-B2322907F368}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85E6CD75-DB47-4CC5-AFEF-B2322907F368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E6CD75-DB47-4CC5-AFEF-B2322907F368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E6CD75-DB47-4CC5-AFEF-B2322907F368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E6CD75-DB47-4CC5-AFEF-B2322907F368}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
