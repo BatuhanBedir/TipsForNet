@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceLogWebApi", "Per
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsReadOnly", "AsReadOnly\AsReadOnly.csproj", "{5EC31353-5062-4F1D-813D-2A03F225FC7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnyAllMethods", "AnyAllMethods\AnyAllMethods.csproj", "{05978D08-BCDD-4C2E-BC4C-B12E813F41D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5EC31353-5062-4F1D-813D-2A03F225FC7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EC31353-5062-4F1D-813D-2A03F225FC7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EC31353-5062-4F1D-813D-2A03F225FC7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05978D08-BCDD-4C2E-BC4C-B12E813F41D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05978D08-BCDD-4C2E-BC4C-B12E813F41D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05978D08-BCDD-4C2E-BC4C-B12E813F41D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05978D08-BCDD-4C2E-BC4C-B12E813F41D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
