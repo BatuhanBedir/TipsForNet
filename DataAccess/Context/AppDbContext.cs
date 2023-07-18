@@ -13,10 +13,12 @@ public sealed class AppDbContext : DbContext
     public DbSet<Product> Products { get; set; }
     public DbSet<ErrorLog> ErrorLogs { get; set; }
     public DbSet<PerformanceLog> PerformanceLogs { get; set; }
+    public DbSet<Category> Categories { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Product>().HasIndex(x => x.Name).IsUnique();
+        modelBuilder.Entity<Category>().HasMany(x => x.Products).WithOne(x => x.Category).HasForeignKey(x => x.CategoryId);
         base.OnModelCreating(modelBuilder);
     }
 }
