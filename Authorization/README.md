@@ -51,9 +51,11 @@ Type özelliði, referansýn bir güvenlik þemasý referansý olduðunu belirtir.
 Bu, Swagger UI'da güvenlik þemasýný göstermek için kullanýlýr. jwtSecuritySchema.Reference.Id deðeri ile tanýmlanan referans 
 kimliði, güvenlik þemasýný tanýmlayan nesnenin kimlik bilgisini temsil eder.
 
--setup.AddSecurityRequirement() yöntemiyle, güvenlik gereksinimlerini tanýmlayan bir OpenApiSecurityRequirement nesnesi oluþturulur. Bu, Swagger belgelerindeki güvenlik gereksinimlerini belirtir.
+-setup.AddSecurityRequirement() yöntemiyle, güvenlik gereksinimlerini tanýmlayan bir OpenApiSecurityRequirement nesnesi oluþturulur. Bu,
+Swagger belgelerindeki güvenlik gereksinimlerini belirtir.
 
-{jwtSecuritySchema, Array.Empty<string>()} ifadesiyle, JWT güvenlik þemasýnýn kullanýlmasýnýn zorunlu olduðu belirtilir. Bu ifade, JWT için herhangi bir yetki kuralý gerektirmediðini belirtir (boþ bir dizi ile temsil edilir).
+{jwtSecuritySchema, Array.Empty<string>()} ifadesiyle, JWT güvenlik þemasýnýn kullanýlmasýnýn zorunlu olduðu belirtilir. Bu ifade, JWT için
+ herhangi bir yetki kuralý gerektirmediðini belirtir (boþ bir dizi ile temsil edilir).
 
 ***Swagger belgelerinde JWT tabanlý kimlik doðrulama þemasýnýn tanýmlanmasýný ve Swagger UI'da bu güvenlik þemasýný kullanýcýya 
 göstermeyi saðlar. Bu sayede API'nin kimlik doðrulama gereksinimleri ve kullanýmý belgelerde açýk bir þekilde görüntülenebilir.
