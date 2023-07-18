@@ -14,11 +14,15 @@ public sealed class AppDbContext : DbContext
     public DbSet<ErrorLog> ErrorLogs { get; set; }
     public DbSet<PerformanceLog> PerformanceLogs { get; set; }
     public DbSet<Category> Categories { get; set; }
+    public DbSet<User> Users { get; set; }
+    public DbSet<Role> Roles { get; set; }
+    public DbSet<UserRole> UserRoles { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Product>().HasIndex(x => x.Name).IsUnique();
         modelBuilder.Entity<Category>().HasMany(x => x.Products).WithOne(x => x.Category).HasForeignKey(x => x.CategoryId);
+        //modelBuilder.Entity<UserRole>().HasOne(x=>x.)
         base.OnModelCreating(modelBuilder);
     }
 }
