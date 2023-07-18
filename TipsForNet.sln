@@ -19,11 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pagination", "Pagination\Pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CancellationTokenWebApi", "CancellationTokenWebApi\CancellationTokenWebApi.csproj", "{F56B57D9-D26B-4ACE-A5A9-9FE7BDB704B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorLog", "ErrorLog\ErrorLog.csproj", "{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErrorLog", "ErrorLog\ErrorLog.csproj", "{BCD3C5F4-0CF4-467F-BD1D-E31A9E686196}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQueryable", "IQueryable\IQueryable.csproj", "{85E6CD75-DB47-4CC5-AFEF-B2322907F368}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IQueryable", "IQueryable\IQueryable.csproj", "{85E6CD75-DB47-4CC5-AFEF-B2322907F368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Record", "Record\Record.csproj", "{31724841-1070-42E1-8AA1-82CF365650EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Record", "Record\Record.csproj", "{31724841-1070-42E1-8AA1-82CF365650EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PerformanceLogWebApi", "PerformanceLog\PerformanceLogWebApi.csproj", "{620E8C3A-9314-4BFF-BE3F-8532ABD5C3E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{31724841-1070-42E1-8AA1-82CF365650EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31724841-1070-42E1-8AA1-82CF365650EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31724841-1070-42E1-8AA1-82CF365650EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{620E8C3A-9314-4BFF-BE3F-8532ABD5C3E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{620E8C3A-9314-4BFF-BE3F-8532ABD5C3E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{620E8C3A-9314-4BFF-BE3F-8532ABD5C3E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{620E8C3A-9314-4BFF-BE3F-8532ABD5C3E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
